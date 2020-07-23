@@ -15,3 +15,6 @@ console.log(soma(2,3))
 // retorno implícito
 const subtracao = (a,b) => a - b//retorno de apenas uma linha não precisa das {}
 console.log(subtracao(2,3))
+
+const imprimir2 = a => console.log(a)
+imprimir2('Legal!!!')
